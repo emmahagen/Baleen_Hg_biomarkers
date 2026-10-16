@@ -71,13 +71,12 @@ CSV columns and descriptions:
 `Sex`: Female or Male  
 `BGR_mm_per_week`: Estimated baleen growth rate (mm/week)  
 `TL_cm`: Total body length from snout to fluke notch (cm)  
-`log_Cortisol`: Log-transformed cortisol concentration; original units ng/g  
-`log_T3`: Log-transformed triiodothyronine concentration; original units ng/g  
+`log_Cortisol`: Log1p-transformed cortisol concentration; original units ng/g  
+`log_T3`: Log1p-transformed triiodothyronine (T3) concentration; original units ng/g  
 `dN15`: Nitrogen stable isotope ratio (δ15N) (‰)  
 `dC13`: Carbon stable isotope ratio (δ13C) (‰)  
-`C_N_ratio`: Elemental carbon-to-nitrogen ratio  
 
-The data include corrected THg and log-transformed hormone values, not raw instrument measurements. The script assumes cortisol values were transformed using the natural log, calculates log1p(THg), and reverses baleen position within each whale using cm_countdown = max(cm) - cm. Sample positions start at 1 cm; there are no 0-cm samples. Er_1 lacks the most recent proximal baleen, as described in the manuscript.
+The data include extraction-efficiency corrected THg and log1p-transformed hormone values, not raw instrument measurements. The script assumes cortisol values were transformed using log1p, calculates log1p(THg), and reverses baleen position within each whale using cm_countdown = max(cm) - cm. Sample positions start at 1 cm; there are no 0-cm samples. Er_1 lacks the most recent proximal baleen, as described in the manuscript.
 
 ## Citation
 
