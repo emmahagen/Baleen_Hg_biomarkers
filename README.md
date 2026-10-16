@@ -22,7 +22,7 @@ Files and contents:
 `data/Supplementary_Data_Hagen_et_al.csv`: Measurements and specimen information for 110 baleen samples  
 `.gitignore`: Excludes local R session files and generated output  
 
-The script evaluates longitudinal THg patterns using linear mixed-effects models and individual linear models, compares 64 candidate biomarker models by AIC, and fits additive models for THg and cortisol with and without Er_5. Er_5 was associated with acute mortality from predation; causes of death for Er_1–Er_4 were undetermined.
+The script evaluates longitudinal THg patterns using linear mixed-effects models and individual linear models, compares 32 candidate biomarker models by AIC, and fits additive models for THg and cortisol with and without Er_5. Er_5 was associated with acute mortality from predation; causes of death for Er_1–Er_4 were undetermined.
 
 ## Running the analysis
 
