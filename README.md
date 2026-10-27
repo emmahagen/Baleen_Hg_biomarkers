@@ -4,7 +4,8 @@ Hagen EE, Fernández Ajó A, Reed J, Rice JM, Wiley VA, Buck CL
 
 Code and data associated with the manuscript of the same title. 
 
-Corresponding Author: Emma E. Hagen; Status: Under review at *Environmental Pollution*. Preprint available at SSRI: http://dx.doi.org/10.2139/ssrn.7674826.
+Corresponding Author: Emma E. Hagen; Status: Under review at *Environmental Pollution*. 
+Preprint available at SSRI: http://dx.doi.org/10.2139/ssrn.7674826.
 
 ## Overview
 
